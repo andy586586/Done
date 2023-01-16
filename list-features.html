@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="list-features.css">
+
+</head>
+
+<body onload="findUser()" >
+    <div id="myDIV" class="header">
+    <h4>Wecome to "Done!" <br> <br> The current Date and Time is <span id='date-time'></span>. </h4>
+    <br>
+    <br>
+    <b>Your current location is Toronto:</b><p id="demo"></p><br><br>
+
+</div>
+
+<br>
+
+
+    <div class="taskassign">
+        <div id="newtask">
+            <input type="text" placeholder="What would you like to accomplish?">
+            <button id="adding">Add task</button>
+        </div>
+        <div id="list"></div>
+    </div>
+
+<script>
+// to retrieve the date and time
+    var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+
+
+// to add an element to the to-do list
+document.querySelector('#adding').onclick = function(){
+            document.querySelector('#list').innerHTML += `
+                <div class="item">
+
+
+                    <span>
+                        
+                    ${document.querySelector('#newtask input').value}
+
+                    </span>
+                    <button class="remove"> Done! </button>
+
+                </div> `;
+
+            var open_items = document.querySelectorAll(".remove");
+            for(var i=0; i<open_items.length; i++){
+                
+                open_items[i].onclick = function(){
+                    this.parentNode.remove();
+                    
+                }
+
+        }  }        
+
+
+// To get the location information of the user:
+// the x.innerHTML just puts that text into the html section
+    function locationInformation(position) {
+        x.innerHTML= "<b>" + "Your Latitude: " + position.coords.latitude + "<br> and Longitude: " + position.coords.longitude + "</b> <u><i>Display on Map";
+    }
+
+
+// to return the location of the user
+var x = document.getElementById("demo");
+
+function findUser() {
+    if (navigator.geolocation) {
+        navigator.geolocation.watchPosition(locationInformation);
+    } 
+   
+    else { 
+        x.innerHTML = "We can't display your exact location due to the browser's characteristics, sorry.";
+    }
+    }
+
+    </script>
+
+
+</body>
+
+
+
+</html>
