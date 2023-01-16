@@ -7,8 +7,8 @@ Welcome to "Done!" — a to-do list application with user input, clock functiona
 
 Here is the application when in use:
 
+![AnimationList](https://user-images.githubusercontent.com/111328484/212591378-8b6e2640-58be-4358-9337-638b0323f4fa.gif)
 
-![image](https://user-images.githubusercontent.com/111328484/212591297-4a51044a-3a96-44db-b782-3f7a41c27107.png)
 
 ![image](https://user-images.githubusercontent.com/111328484/212580944-5ec9616c-0926-4348-acff-aee3ef52bf3f.png)
 
