@@ -3,7 +3,7 @@
 ### Description:
 Welcome to "Done!" — a to-do list application with user input, clock functionality and location tracking. The applciation was made using HTML, CSS and Javascript.
 
-![image](https://user-images.githubusercontent.com/111328484/212579264-e91e1a98-6107-4cef-ba5a-394b563344c9.png)
+![image](https://user-images.githubusercontent.com/111328484/212580986-77c84175-3b53-4723-987d-c18982164375.png)
 
 Here is the application when in use:
 
