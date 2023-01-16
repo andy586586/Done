@@ -5,8 +5,10 @@ Welcome to "Done!" — a to-do list application with user input, clock functiona
 
 ![image](https://user-images.githubusercontent.com/111328484/212579264-e91e1a98-6107-4cef-ba5a-394b563344c9.png)
 
+Here is the application when in use:
 
-![image](https://user-images.githubusercontent.com/111328484/212579076-1e57a82a-9f45-4c85-9583-b99a92627247.png)
+
+![image](https://user-images.githubusercontent.com/111328484/212579367-923ac4b5-5ac9-4f56-a677-761d6f9ef200.png)
 
 
 
